@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar > * {
+    @apply mx-5 mt-5 mb-5
+}
+
+.navbar > .active {
+    @apply font-bold
+}
